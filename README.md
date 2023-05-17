@@ -76,30 +76,29 @@ Tailwind's `text-base` is `1rem`, which is 16px in vanilla CSS.
 
 ## Measurements: Height, Width, Margin, Padding
 Generally helpful container values:
-`h-full` to fill container's height
-`h-screen` or `min-h-screen` to fill viewport 
-`min-h-min`, `min-h-max`
-`w-screen`
-`w-1` is `width: 4px;`
-`p-2` is `padding: 8px;`
-`m-4` is `margin: 1rem;`
-
+- `h-full` to fill container's height
+- `h-screen` or `min-h-screen` to fill viewport 
+- `min-h-min`, `min-h-max`
+- `w-screen`
+- `w-1` is `width: 4px;`
+- `p-2` is `padding: 8px;`
+- `m-4` is `margin: 1rem;`
+  
 Percentages as fractions:
-`w-1/4` or `w-full` is width: 25% or width: 100%
-
-You can add x/y for left&right, top&bottom like the x/y (vertical/horizontal) axes: 
-`px-1` is `padding-left: 4px;` and `padding-right: 4px;`, or `padding: 0 4px;`
-
+- `w-1/4` or `w-full` is width: 25% or width: 100%
+  
+You can add x/y for left&right, top&bottom like the x/y (vertical/horizontal) axes: `px-1` is `padding-left: 4px;` and `padding-right: 4px;`, or `padding: 0 4px;`
+  
 t,r,b,l is top, right, bottom, left, so `pt-1` is padding-top: 4px;
 
 ## Breakpoints
 default breakpoints: 
-sm (640px wide), 
-md (768px), 
-lg (1024px) 
-xl (1280px), 
-2xl (1536px)
-
+- sm (640px wide), 
+- md (768px), 
+- lg (1024px), 
+- xl (1280px), 
+- 2xl (1536px)
+  
 Adding a value at a breakpoint looks like this: `sm:text-center` 
 
 ## Colors
