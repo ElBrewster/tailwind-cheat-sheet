@@ -36,10 +36,15 @@ And if you know a cool way to stack linear-gradients in Tailwind please @me.
     @tailwind components;
     @tailwind utilities;
     ```
-## Cheatsheet
-I'll start out by highlighting this App wrapper:
+
+## __Cheatsheet__
+
+I'll start out by highlighting this App wrapper:  
+
 `<div className='min-h-screen flex flex-col bg-blue-800'></div>`
-and main tag:
+  
+and main tag:  
+
 `<main className='flex flex-1 flex-col'></main>`
 These should give your app a good starting point by setting the content to fit screen height and having the main content fill available space with `flex-1`.
 I like to do the classic header, main, footer setup for a quick SPA with semantic HTML.
