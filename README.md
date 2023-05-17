@@ -142,6 +142,7 @@ If I wanted a grid display:
 
 it would be something like this:
 `<div className="grid gap-5 grid-cols-3"></div>`
+  
 Or for a flex display:
 
 ```
