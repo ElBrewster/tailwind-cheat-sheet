@@ -9,10 +9,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='flex min-h-screen flex-col bg-blue-800'>
+    <div className="min-h-screen flex flex-col bg-blue-800">
 
-      <header className='flex flex-wrap justify-between bg-blue-800 shadow-lg shadow-blue-950/50'>
-        <h1 className='self-center px-4 text-6xl font-bold text-purple-200'>Vite + React</h1>
+      <header className="flex flex-wrap justify-between bg-blue-800 shadow-lg shadow-blue-950/50">
+        <h1 className="self-center px-4 text-6xl font-bold text-purple-200">Vite + React</h1>
         <div className="flex">
           <a href="https://vitejs.dev" target="_blank">
             <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -60,7 +60,7 @@ function App() {
         </div>
       </main>
 
-      <footer className="sticky bottom-0 flex flex-row bg-indigo-950 p-2">
+      <footer className="sticky p-2 bottom-0 flex flex-row bg-indigo-950">
         <a
           href="https://github.com/ElBrewster"
           aria-label="Go to El's github page"
