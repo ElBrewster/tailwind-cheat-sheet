@@ -1,17 +1,17 @@
 # **Tailwind Cheatsheet**
 
-### What's this?
+## What's this?
 This Vite app is a quick mock-up so my friends can quickly style SPAs with Tailwind. I found the docs a bit frustrating to navigate and decided a shortcut would be great. The important bits are this README and the example ` src/App.jsx`. Feel free to beg, borrow, or steal any of it 😊.
 
 And if you know a cool way to stack linear-gradients in Tailwind please @me.
 
-### Screenshots
+## Screenshots
 <img width="510" alt="Screen Shot 2023-05-17 at 1 21 16 PM" src="https://github.com/ElBrewster/tailwind-cheat-sheet/assets/113723085/1f7ea78f-a03b-40db-945d-1d0910250d6f">
 
 <img width="1649" alt="Screen Shot 2023-05-17 at 1 21 35 PM" src="https://github.com/ElBrewster/tailwind-cheat-sheet/assets/113723085/2b7fbcbb-622b-4985-8e52-1aed57aa3c29">
 
 
-### Setup
+## Setup
 1. [Click](https://github.com/ElBrewster/tailwind-cheat-sheet) to open repo. Browse, or: 
 2. Click the "Fork" button. (This will create a user copy of the repository.)
 3. Open the Terminal application.
@@ -50,7 +50,7 @@ I like to do the classic header, main, footer setup for a quick SPA with semanti
     <footer></footer>
 </div>
 ```
-### Tailwind Numbers
+## Tailwind Numbers
 Don't guess what number to use for sizes. Only some work.
 In general, 1 = 4px
 `h-px` is height of 1px
@@ -61,7 +61,7 @@ For *font sizes* you can try `text-xs` or -sm/-base/-lg/-xl/-2xl...-9xl
 Tailwind's `text-base` is `1rem`, which is 16px in vanilla CSS.
 
 
-### Measurements: Height, Width, Margin, Padding
+## Measurements: Height, Width, Margin, Padding
 Generally helpful container values:
 `h-full` to fill container's height
 `h-screen` or `min-h-screen` to fill viewport 
@@ -79,7 +79,7 @@ You can add x/y for left&right, top&bottom like the x/y (vertical/horizontal) ax
 
 t,r,b,l is top, right, bottom, left, so `pt-1` is padding-top: 4px;
 
-### Breakpoints
+## Breakpoints
 default breakpoints: 
 sm (640px wide), 
 md (768px), 
@@ -89,18 +89,17 @@ xl (1280px),
 
 Adding a value at a breakpoint looks like this: `sm:text-center` 
 
-### Colors
-The default colors are [here](https://tailwindcss.com/docs/customizing-colors). 
-They are slate, gray, zinc, neutral, stone, red, orange, <font color="#f59e0b">amber</font>, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose.
-
-You apply color using the color name and then a number (scaling from light to dark): 50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950.
-
+## Colors
+- The default colors are [here](https://tailwindcss.com/docs/customizing-colors). 
+- They are: slate, gray, zinc, neutral, stone, red, orange, amber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose.
+- You apply color using the color name and then a number (scaling from light to dark): 50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950.
+```
 `background-color: #4b5563` is written in the `className` as `bg-gray-600`:
 `<div className="bg-gray-600 text-gray-100"></div>`
-
+```
 I included an example of how to customize colors in the tailwind.config.ts file. I labeled arbitrary numbers in-between their defaults and assigned these numbers to color hex codes. 
 
-### Flexbox & Grid
+## Flexbox & Grid
 I've included a few simple examples in `App.jsx`, however I would suggest using dev tools to get the flex properties you want and then search the tailwind docs for their syntax.
 
 If I wanted 
