@@ -1,12 +1,14 @@
 # **Tailwind Cheatsheet**
 
 ### What's this?
-This Vite app is a quick mock-up so my friends can quickly style SPAs with Tailwind. I found the docs a bit frustrating to navigate and decided a shortcut would be great. The important bits are this README and then examples are in `App.jsx`. Feel free to beg, borrow, or steal any of it :slight-smile:.
+This Vite app is a quick mock-up so my friends can quickly style SPAs with Tailwind. I found the docs a bit frustrating to navigate and decided a shortcut would be great. The important bits are this README and then examples are in `App.jsx`. Feel free to beg, borrow, or steal any of it 😊.
 
 And if you know a cool way to stack linear-gradients in Tailwind please @me.
 
 ### Screenshots
+<img width="510" alt="Screen Shot 2023-05-17 at 1 21 16 PM" src="https://github.com/ElBrewster/tailwind-cheat-sheet/assets/113723085/1f7ea78f-a03b-40db-945d-1d0910250d6f">
 
+<img width="1649" alt="Screen Shot 2023-05-17 at 1 21 35 PM" src="https://github.com/ElBrewster/tailwind-cheat-sheet/assets/113723085/2b7fbcbb-622b-4985-8e52-1aed57aa3c29">
 
 
 ### Setup
