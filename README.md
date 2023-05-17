@@ -43,12 +43,13 @@ and main tag:
 `<main className='flex flex-1 flex-col'></main>`
 These should give your app a good starting point by setting the content to fit screen height and having the main content fill available space with `flex-1`.
 I like to do the classic header, main, footer setup for a quick SPA with semantic HTML.
+```
 <div>
     <header></header>
     <main></main>
     <footer></footer>
 </div>
-
+```
 ### Tailwind Numbers
 Don't guess what number to use for sizes. Only some work.
 In general, 1 = 4px
