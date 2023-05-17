@@ -2,7 +2,7 @@
 
 ## What's this?
 
-This Vite app is a quick mock-up so my friends can quickly style SPAs with Tailwind. I found the docs a bit frustrating to navigate and decided a shortcut would be great. The important bits are this README and the example ` src/App.jsx`. Feel free to beg, borrow, or steal any of it 😊.
+This Vite app is a quick mock-up so my friends can quickly style SPAs with Tailwind. I found the docs a bit frustrating to navigate and decided a shortcut would be great. The important bits are this README, the example ` src/App.jsx`, and `tailwind.config.ts`. Feel free to beg, borrow, or steal any of it 😊.
 
 And if you know a cool way to stack linear-gradients in Tailwind please @me.
 
@@ -109,12 +109,12 @@ Adding a value at a breakpoint looks like this: `sm:text-center`
 `background-color: #4b5563` is written in the `className` as `bg-gray-600`:
 `<div className="bg-gray-600 text-gray-100"></div>`
 ```
-I included an example of how to customize colors in the tailwind.config.ts file. I labeled arbitrary numbers in-between their defaults and assigned these numbers to color hex codes. 
+I included an example of how to add custom colors in the `tailwind.config.ts` file. Label hex codes with a name and number to reference in your className elements. I used numbers in-between the pre-existing Tailwind designations. 
 
 ## Flexbox & Grid
-I've included a few simple examples in `App.jsx`, however I would suggest using dev tools to get the flex properties you want and then search the tailwind docs for their syntax.
+I've included a few simple examples in `App.jsx`, however I would suggest using dev tools to get the flex properties you want and use the search field in the tailwind docs to find their special syntax.
 
-If I wanted 
+If I wanted a grid display: 
 ```
 .container{
     display: grid;
@@ -124,7 +124,7 @@ If I wanted
 ```
 it would be something like this:
 `<div className="grid gap-5 grid-cols-3"></div>`
-Or
+Or for a flex display:
 ```
 .profile-form{
     align-items: flex-start;
@@ -133,5 +133,5 @@ Or
     justify-content: space-evenly;
 }
 ```
-might look like this:
+it might look like this:
 `<div className="flex flex-col items-start justify-evenly"></div>`
