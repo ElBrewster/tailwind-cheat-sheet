@@ -65,13 +65,12 @@ I like to do the classic header, main, footer setup for a quick SPA with semanti
 *Don't guess what number to use for sizes. Only some work.*
 - In general, 1 = 4px
 - `h-px` is height of 1px
-- so `h-1` is `height: 4px;`
+- `h-1` is `height: 4px;`
   
-[Here's](https://tailwindcss.com/docs/padding#add-padding-to-a-single-side) an example of applying pixels to padding to show what I mean.   
+> [Here's](https://tailwindcss.com/docs/padding#add-padding-to-a-single-side) an example of applying pixels to padding to show what I mean: `p-0` is 0px padding, `p-1` is 4px padding, and after `p-12` some numbers are skipped.
 
-`p-0` is 0px padding, `p-1` is 4px padding, and after `p-12` some numbers are skipped.
-
-For *font sizes* you can try `text-xs` or -sm/-base/-lg/-xl/-2xl...-9xl
+For *font sizes* you can try `text-xs` or -sm/-base/-lg/-xl/-2xl...-9xl.
+  
 Tailwind's `text-base` is `1rem`, which is 16px in vanilla CSS.
 
 
