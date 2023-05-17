@@ -12,7 +12,7 @@ And if you know a cool way to stack linear-gradients in Tailwind please @me.
 
 
 ## Setup
-1. [Click](https://github.com/ElBrewster/tailwind-cheat-sheet) to open repo. Browse, or: 
+1. [Click here](https://github.com/ElBrewster/tailwind-cheat-sheet) to open the repo. Browse, or: 
 2. Click the "Fork" button. (This will create a user copy of the repository.)
 3. Open the Terminal application.
 4. In Terminal, use the "cd" command to navigate to where the local repository will live.
