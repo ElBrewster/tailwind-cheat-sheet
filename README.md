@@ -2,9 +2,9 @@
 
 ## What's this?
 
-This Vite app is a mock-up so my friends can quickly style SPAs with Tailwind. I found the docs a bit frustrating to navigate and decided a shortcut would be great. The important bits are this README, the example `src/App.jsx`, and `tailwind.config.ts`. Feel free to beg, borrow, or steal any of it 😊.
+This Vite app is a mock-up so my friends can quickly style SPAs with Tailwind. I found the docs a bit frustrating to navigate and decided to make a shortcut. The important bits are this README, the example `src/App.jsx`, and `tailwind.config.ts`. Feel free to beg, borrow, or steal any of it 😊.
 
-And if you know a cool way to stack linear-gradients in Tailwind please @me.
+Gold star to the person who finds a cool way to stack linear-gradients in Tailwind (please @me 🥺).
 
 ## What's Tailwind?
 
