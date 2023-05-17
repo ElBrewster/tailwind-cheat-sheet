@@ -16,7 +16,7 @@ And if you know a cool way to stack linear-gradients in Tailwind please @me.
 2. Click the "Fork" button. (This will create a user copy of the repository.)
 3. Open the Terminal application.
 4. In Terminal, use the "cd" command to navigate to where the local repository will live.
-5. In GitHub, click on the green "Code' dropdown. You will see three clone options. Select "SSH" and copy the SSH key.
+5. In GitHub, click on the green "Code" dropdown. You will see three clone options. Select "SSH" and copy the SSH key.
 6. In Terminal, run "git clone [insert copied SSH key here]", and then use the "cd" command to navigate into the newly created directory.
 7. Open the local repository in VS Code by typing: `code .`
 8. Type `npm run dev` in your Terminal to run the Vite app, and view in browser at [http://localhost:5173/](http://localhost:5173/).
