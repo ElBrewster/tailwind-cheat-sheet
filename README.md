@@ -89,7 +89,7 @@ Percentages as fractions:
   
 You can add x/y for left&right, top&bottom like the x/y (vertical/horizontal) axes: `px-1` is `padding-left: 4px;` and `padding-right: 4px;`, or `padding: 0 4px;`
   
-t,r,b,l is top, right, bottom, left, so `pt-1` is padding-top: 4px;
+t,r,b,l is top, right, bottom, left, so `pt-1` is `padding-top: 4px;`
 
 ## Breakpoints
 default breakpoints: 
