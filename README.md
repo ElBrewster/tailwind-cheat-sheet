@@ -8,7 +8,9 @@ And if you know a cool way to stack linear-gradients in Tailwind please @me.
 
 ## What's Tailwind?
 
-Tailwind is a CSS framework that uses short-hand for pre-existing CSS stylesheet language. These short-hand phrases are called "utility classes" and they are declared inside the class/className of an html attribute. Many utility classes can be used in one attribute statement like so: 
+Tailwind is a CSS framework that uses short-hand for pre-existing CSS stylesheet declarations. These short-hand phrases are called "utility classes", referring to a styling property and its value. They are declared inside the class/className of an html attribute. Many utility classes can be used in one attribute statement like so: 
+
+`<footer className="sticky bottom-0 flex flex-row bg-indigo-950 p-2"></footer>`
 
 
 ## Screenshots
