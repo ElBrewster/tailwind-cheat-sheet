@@ -14,6 +14,12 @@ Tailwind is a CSS framework that uses short-hand for pre-existing CSS stylesheet
 
 ## Screenshots
 
+
+<img width="510" alt="tailwind screenshot long" src="https://github.com/ElBrewster/tailwind-cheat-sheet/assets/113723085/6775d294-30ba-47cb-96f2-d8cc4376a79b">
+
+<img width="1649" alt="tailwind screenshot wide" src="https://github.com/ElBrewster/tailwind-cheat-sheet/assets/113723085/d1c94abb-2c24-4a82-989e-584bad169d7a">
+
+
 <img width="510" alt="Screen Shot 2023-05-17 at 1 21 16 PM" src="https://github.com/ElBrewster/tailwind-cheat-sheet/assets/113723085/1f7ea78f-a03b-40db-945d-1d0910250d6f">
 
 <img width="1649" alt="Screen Shot 2023-05-17 at 1 21 35 PM" src="https://github.com/ElBrewster/tailwind-cheat-sheet/assets/113723085/2b7fbcbb-622b-4985-8e52-1aed57aa3c29">
