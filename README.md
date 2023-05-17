@@ -91,7 +91,7 @@ Adding a value at a breakpoint looks like this: `sm:text-center`
 
 ### Colors
 The default colors are [here](https://tailwindcss.com/docs/customizing-colors). 
-They are slate, gray, zinc, neutral, stone, red, orange, amaber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose.
+They are slate, gray, zinc, neutral, stone, red, orange, <span style="color: #f59e0b">amber</span>, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose.
 
 You apply color using the color name and then a number (scaling from light to dark): 50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 950.
 
