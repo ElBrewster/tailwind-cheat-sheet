@@ -6,6 +6,11 @@ This Vite app is a mock-up so my friends can quickly style SPAs with Tailwind. I
 
 And if you know a cool way to stack linear-gradients in Tailwind please @me.
 
+## What's Tailwind?
+
+Tailwind is a CSS framework that uses short-hand for pre-existing CSS stylesheet language. These short-hand phrases are called "utility classes" and they are declared inside the class/className of an html attribute. Many utility classes can be used in one attribute statement like so: 
+
+
 ## Screenshots
 
 <img width="510" alt="Screen Shot 2023-05-17 at 1 21 16 PM" src="https://github.com/ElBrewster/tailwind-cheat-sheet/assets/113723085/1f7ea78f-a03b-40db-945d-1d0910250d6f">
