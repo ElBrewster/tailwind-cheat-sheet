@@ -1,17 +1,20 @@
 # **Tailwind Cheatsheet**
 
 ## What's this?
+
 This Vite app is a quick mock-up so my friends can quickly style SPAs with Tailwind. I found the docs a bit frustrating to navigate and decided a shortcut would be great. The important bits are this README and the example ` src/App.jsx`. Feel free to beg, borrow, or steal any of it 😊.
 
 And if you know a cool way to stack linear-gradients in Tailwind please @me.
 
 ## Screenshots
+
 <img width="510" alt="Screen Shot 2023-05-17 at 1 21 16 PM" src="https://github.com/ElBrewster/tailwind-cheat-sheet/assets/113723085/1f7ea78f-a03b-40db-945d-1d0910250d6f">
 
 <img width="1649" alt="Screen Shot 2023-05-17 at 1 21 35 PM" src="https://github.com/ElBrewster/tailwind-cheat-sheet/assets/113723085/2b7fbcbb-622b-4985-8e52-1aed57aa3c29">
 
 
 ## Setup
+
 1. [Click here](https://github.com/ElBrewster/tailwind-cheat-sheet) to open the repo. Browse, or: 
 2. Click the "Fork" button. (This will create a user copy of the repository.)
 3. Open the Terminal application.
@@ -46,6 +49,7 @@ I'll start out by highlighting this App wrapper:
 and main tag:  
 
 `<main className='flex flex-1 flex-col'></main>`
+  
 These should give your app a good starting point by setting the content to fit screen height and having the main content fill available space with `flex-1`.
 I like to do the classic header, main, footer setup for a quick SPA with semantic HTML.
 ```
@@ -55,12 +59,17 @@ I like to do the classic header, main, footer setup for a quick SPA with semanti
     <footer></footer>
 </div>
 ```
+
 ## Tailwind Numbers
-Don't guess what number to use for sizes. Only some work.
-In general, 1 = 4px
-`h-px` is height of 1px
-so `h-1` is `height: 4px;`
-[Here's](https://tailwindcss.com/docs/padding#add-padding-to-a-single-side) an example of applying pixels to padding to show what I mean. `p-0` is 0px padding, `p-1` is 4px padding, and after `p-12` some numbers are skipped.
+
+*Don't guess what number to use for sizes. Only some work.*
+- In general, 1 = 4px
+- `h-px` is height of 1px
+- so `h-1` is `height: 4px;`
+  
+[Here's](https://tailwindcss.com/docs/padding#add-padding-to-a-single-side) an example of applying pixels to padding to show what I mean.   
+
+`p-0` is 0px padding, `p-1` is 4px padding, and after `p-12` some numbers are skipped.
 
 For *font sizes* you can try `text-xs` or -sm/-base/-lg/-xl/-2xl...-9xl
 Tailwind's `text-base` is `1rem`, which is 16px in vanilla CSS.
