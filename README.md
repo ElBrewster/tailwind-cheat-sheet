@@ -60,11 +60,11 @@ These should give your app a good starting point by setting the content to fit s
 I like to do the classic header, main, footer setup for a quick SPA with semantic HTML.
 
 ```
-<div className='min-h-screen flex flex-col'>
-    <header></header>
-    <main className='flex flex-1'></main>
-    <footer></footer>
-</div>
+    <div className="min-h-screen flex flex-col bg-blue-100">
+      <header className="bg-gray-100">header</header>
+      <main className="flex flex-1">main</main>
+      <footer className="bg-gray-100">footer</footer>
+    </div>
 ```
 
 ## Tailwind Numbers
