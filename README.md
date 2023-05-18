@@ -50,7 +50,7 @@ Tailwind is a CSS framework that uses short-hand for pre-existing CSS stylesheet
 
 I'll start out by highlighting this App wrapper:
 
-`<div className='min-h-screen flex flex-col bg-blue-800'></div>`
+`<div className='min-h-screen flex flex-col bg-blue-100'></div>`
 
 and main tag:
 
@@ -62,7 +62,7 @@ I like to do the classic header, main, footer setup for a quick SPA with semanti
 ```
     <div className="min-h-screen flex flex-col bg-blue-100">
       <header className="bg-gray-100">header</header>
-      <main className="flex flex-1">main</main>
+      <main className="flex flex-1 flex-col">main</main>
       <footer className="bg-gray-100">footer</footer>
     </div>
 ```
