@@ -60,9 +60,9 @@ These should give your app a good starting point by setting the content to fit s
 I like to do the classic header, main, footer setup for a quick SPA with semantic HTML.
 
 ```
-<div className='min-h-screen flex flex-col bg-blue-800'>
+<div className='min-h-screen flex flex-col'>
     <header></header>
-    <main className='flex flex-1 flex-col'></main>
+    <main className='flex flex-1'></main>
     <footer></footer>
 </div>
 ```
