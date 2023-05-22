@@ -1,6 +1,8 @@
 # **Tailwind Cheatsheet**
 [Screenshots](Screenshots)
+  
 [Setup](Setup)
+  
 [**Cheatsheet**](**Cheatsheet**)
 
 ## What's this?
@@ -15,14 +17,14 @@ Tailwind is a CSS framework that uses short-hand for pre-existing CSS stylesheet
 
 `<footer className="sticky p-2 bottom-0 flex flex-row bg-indigo-950"></footer>`
 
-## Screenshots
+### Screenshots
 
 
 <img width="510" alt="tailwind screenshot long" src="https://github.com/ElBrewster/tailwind-cheat-sheet/assets/113723085/6775d294-30ba-47cb-96f2-d8cc4376a79b">
 
 <img width="1649" alt="tailwind screenshot wide" src="https://github.com/ElBrewster/tailwind-cheat-sheet/assets/113723085/d1c94abb-2c24-4a82-989e-584bad169d7a">
 
-## Setup
+### Setup
 
 1. [Click here](https://github.com/ElBrewster/tailwind-cheat-sheet) to open the repo. Browse, or:
 2. Click the "Fork" button. (This will create a user copy of the repository.)
@@ -49,7 +51,7 @@ Tailwind is a CSS framework that uses short-hand for pre-existing CSS stylesheet
    @tailwind utilities;
    ```
 
-## **Cheatsheet**
+### **Cheatsheet**
 [Tailwind numbers](Tailwind Numbers)
 [Measurements: Height, Width, Margin, Padding](Measurements: Height, Width, Margin, Padding)
 [Breakpoints](Breakpoints)
@@ -75,7 +77,7 @@ I like to do the classic header, main, footer setup for a quick SPA with semanti
     </div>
 ```
 
-## Tailwind Numbers
+### Tailwind Numbers
 
 _Don't guess what number to use for sizes. Only some work._
 
@@ -89,7 +91,7 @@ For _font sizes_ you can try `text-xs` or -sm/-base/-lg/-xl/-2xl...-9xl.
 
 Tailwind's `text-base` is `1rem`, which is 16px in vanilla CSS.
 
-## Measurements: Height, Width, Margin, Padding
+### Measurements: Height, Width, Margin, Padding
 
 Generally helpful container values:
 
@@ -109,7 +111,7 @@ You can add x/y for left&right, top&bottom like the x/y (vertical/horizontal) ax
 
 t,r,b,l is top, right, bottom, left, so `pt-1` is `padding-top: 4px;`
 
-## Breakpoints
+### Breakpoints
 
 default breakpoints:
 
@@ -121,7 +123,7 @@ default breakpoints:
 
 Adding a value at a breakpoint looks like this: `sm:text-center`
 
-## Colors
+### Colors
 
 - The default colors are [here](https://tailwindcss.com/docs/customizing-colors).
 - They are: slate, gray, zinc, neutral, stone, red, orange, amber, yellow, lime, green, emerald, teal, cyan, sky, blue, indigo, violet, purple, fuchsia, pink, rose.
@@ -134,7 +136,7 @@ Adding a value at a breakpoint looks like this: `sm:text-center`
 
 I included an example of how to add custom colors in the `tailwind.config.ts` file. Label hex codes with a name and number to reference in your className elements. I used numbers in-between the pre-existing Tailwind designations.
 
-## Flexbox & Grid
+### Flexbox & Grid
 
 I've included a few simple examples in `App.jsx`, however I would suggest using dev tools to get the flex properties you want and use the search field in the tailwind docs to find their special syntax.
 
