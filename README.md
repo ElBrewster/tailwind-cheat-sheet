@@ -1,4 +1,7 @@
 # **Tailwind Cheatsheet**
+[Screenshots](Screenshots)
+[Setup](Setup)
+[**Cheatsheet**](**Cheatsheet**)
 
 ## What's this?
 
@@ -47,6 +50,11 @@ Tailwind is a CSS framework that uses short-hand for pre-existing CSS stylesheet
    ```
 
 ## **Cheatsheet**
+[Tailwind numbers](Tailwind Numbers)
+[Measurements: Height, Width, Margin, Padding](Measurements: Height, Width, Margin, Padding)
+[Breakpoints](Breakpoints)
+[Colors](Colors)
+[Flexbox & Grid](Flexbox & Grid)
 
 I'll start out by highlighting this App wrapper:
 
