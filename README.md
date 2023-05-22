@@ -54,7 +54,7 @@ Tailwind is a CSS framework that uses short-hand for pre-existing CSS stylesheet
 - [Measurements](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#measurements-height-width-margin-padding)
 - [Breakpoints](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#breakpoints)
 - [Colors](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#colors)
-- [Flexbox & Grid](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#flexbox-grid)
+- [Flexbox & Grid](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#flexbox-and-grid)
 
 I'll start out by highlighting this App wrapper:
 
@@ -134,7 +134,7 @@ Adding a value at a breakpoint looks like this: `sm:text-center`
 
 I included an example of how to add custom colors in the `tailwind.config.ts` file. Label hex codes with a name and number to reference in your className elements. I used numbers in-between the pre-existing Tailwind designations.
 
-### Flexbox & Grid
+### Flexbox and Grid
 
 I've included a few simple examples in `App.jsx`, however I would suggest using dev tools to get the flex properties you want and use the search field in the tailwind docs to find their special syntax.
 
