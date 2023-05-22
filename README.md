@@ -51,7 +51,7 @@ Tailwind is a CSS framework that uses short-hand for pre-existing CSS stylesheet
    @tailwind utilities;
    ```
 
-### **Cheatsheet**
+### Cheatsheet
 [Tailwind Numbers](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#tailwind-numbers)
   
 [Measurements](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#measurements-height-width-margin-padding)
@@ -60,7 +60,7 @@ Tailwind is a CSS framework that uses short-hand for pre-existing CSS stylesheet
   
 [Colors](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#colors)
   
-[Flexbox & Grid](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#flexbox-&-grid)
+[Flexbox & Grid](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#flexbox-grid)
 
 I'll start out by highlighting this App wrapper:
 
