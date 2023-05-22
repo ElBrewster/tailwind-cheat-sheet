@@ -1,5 +1,5 @@
 # **Tailwind Cheatsheet**
-[Screenshots](Screenshots)
+[Screenshots]([Screenshots](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#screenshots))
   
 [Setup](Setup)
   
