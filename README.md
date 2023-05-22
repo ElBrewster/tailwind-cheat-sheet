@@ -1,9 +1,9 @@
 # **Tailwind Cheatsheet**
 [Screenshots](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#screenshots)
   
-[Setup](Setup)
+[Setup](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#setup)
   
-[**Cheatsheet**](**Cheatsheet**)
+[**Cheatsheet**](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#**Cheatsheet**)
 
 ## What's this?
 
