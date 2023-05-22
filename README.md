@@ -1,9 +1,7 @@
-# **Tailwind Cheatsheet**
-[Screenshots](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#screenshots)
-  
-[Setup](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#setup)
-  
-[**Cheatsheet**](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#cheatsheet)
+# **Tailwind Cheat Sheet**
+- [Screenshots](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#screenshots)
+- [Setup](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#setup)
+- [Cheatsheet](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#cheatsheet)
 
 ## What's this?
 
@@ -52,15 +50,11 @@ Tailwind is a CSS framework that uses short-hand for pre-existing CSS stylesheet
    ```
 
 ### Cheatsheet
-[Tailwind Numbers](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#tailwind-numbers)
-  
-[Measurements](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#measurements-height-width-margin-padding)
-  
-[Breakpoints](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#breakpoints)
-  
-[Colors](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#colors)
-  
-[Flexbox & Grid](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#flexbox-grid)
+- [Tailwind Numbers](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#tailwind-numbers)
+- [Measurements](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#measurements-height-width-margin-padding)
+- [Breakpoints](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#breakpoints)
+- [Colors](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#colors)
+- [Flexbox & Grid](https://github.com/ElBrewster/tailwind-cheat-sheet/blob/main/README.md#flexbox-grid)
 
 I'll start out by highlighting this App wrapper:
 
